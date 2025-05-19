@@ -36,9 +36,8 @@ async function reloadWebsite() {
       "ngrok-skip-browser-warning": "any",
     }
   })
-
-  const data = await res.json()
-  console.log(data)
+  console.log(res)
+  console.log(res_back)
 }
 
 setInterval(reloadWebsite, interval);
