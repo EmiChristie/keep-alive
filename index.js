@@ -30,7 +30,7 @@ async function reloadWebsite() {
     }
   })
 
-  const res_back = await fetch(`${url_back}/server/ping`, {
+  const res_back = await fetch(`${url_back}/teste/conexao`, {
     method:"GET",
     headers: {
       "ngrok-skip-browser-warning": "any",
